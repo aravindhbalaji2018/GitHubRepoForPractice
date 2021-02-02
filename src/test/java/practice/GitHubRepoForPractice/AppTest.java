@@ -9,4 +9,7 @@ import junit.framework.TestSuite;
  */
 public class AppTest 
     extends TestCase{
+	AppTest(){
+		System.out.println("Default Constructor");
+	}
 }
